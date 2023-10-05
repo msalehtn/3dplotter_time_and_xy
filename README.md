@@ -16,3 +16,10 @@ Here is an example result of the visualization of a given expression with parame
 
 PS: You can zoom on an specefic interval interactivly, study the plot values by moving the cursor, save and load current plot configuration.
 
+I made this software after learning Java programming back in 2014.
+
+Good Luck!
+
+
+Mohammad Saleh Talebinezhad
+
