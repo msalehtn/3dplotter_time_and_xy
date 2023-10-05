@@ -66,6 +66,7 @@ String expStr = "";
 			while(!SF.isItTheRightComma(testComma)){
 			
 				tempVFP = tempVFP.replaceFirst(",", "E");
+		
 				testComma = tempVFP.substring(0, tempVFP.indexOf(","));
 				
 			}

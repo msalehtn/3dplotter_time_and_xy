@@ -17,7 +17,7 @@ public class JColorChooser extends javax.swing.JFrame {
         initComponents();
             
 				try {
-					UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
+					UIManager.setLookAndFeel( UIManager.getSystemLookAndFeelClassName());
 				} catch (ClassNotFoundException | InstantiationException
 						| IllegalAccessException
 						| UnsupportedLookAndFeelException e) {

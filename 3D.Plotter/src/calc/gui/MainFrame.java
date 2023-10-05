@@ -62,7 +62,7 @@ public class MainFrame extends javax.swing.JFrame {
         
         
 				try {
-					UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
+					UIManager.setLookAndFeel( UIManager.getSystemLookAndFeelClassName());
 				} catch (ClassNotFoundException | InstantiationException
 						| IllegalAccessException
 						| UnsupportedLookAndFeelException e) {
